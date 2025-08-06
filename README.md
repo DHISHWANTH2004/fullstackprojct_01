@@ -1,2 +1,14 @@
-# fullstackprojct_01
-DAS Foods is an AI-powered restaurant management web app with features like interactive menus, smart meal suggestions (Google Gemini API), order tracking, table reservations, and a real-time kitchen view. Built with React, TypeScript, and Tailwind CSS for a modern, efficient user experience.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
